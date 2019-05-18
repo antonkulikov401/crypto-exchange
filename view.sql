@@ -1,4 +1,4 @@
-SET SEARCH_PATH = crypto_exchange;
+﻿SET SEARCH_PATH = crypto_exchange;
 
 
 
@@ -27,7 +27,7 @@ RETURNS text AS $$
 $$ LANGUAGE plpgsql
 RETURNS NULL ON NULL INPUT;
 
-SELECT * from client_view;
+
 
 /* ПРЕДСТАВЛЕНИЯ, СКРЫВАЮЩИЕ СЕКРЕТНУЮ ИНФОРМАЦИЮ */
 
